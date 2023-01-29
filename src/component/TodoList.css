@@ -1,0 +1,70 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }  
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  button.add {
+    background-color: lightblue;
+    color: white;
+  }
+  button.add:hover {
+    background-color: lightgreen;
+  }
+  
+  button.delete {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  button.delete:hover {
+    background-color: pink;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  
